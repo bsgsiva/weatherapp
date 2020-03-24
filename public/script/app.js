@@ -1,5 +1,5 @@
 console.log('I came from node.js app') 
-//const fetch = require('node-fetch')
+
 //var url='https://api.mapbox.com/geocoding/v5/mapbox.places/Boston.json?access_token=pk.eyJ1IjoiYnNnc2l2YSIsImEiOiJjazd3NXc1bzgwMGNsM2xtamNlb2ViMTgwIn0.IuMd-QD9cSQ6uRuedWBUNg'
 
 
