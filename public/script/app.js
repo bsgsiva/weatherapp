@@ -12,7 +12,7 @@ weatherForm.addEventListener('submit', (e)=>{
     e.preventDefault()
       var location = search.value
        querytoprint.textContent="...Loading Please Wait"
-    fetch('http://localhost:3000/Products?address=' + location).then( (response)=>{
+    fetch('/Products?address=' + location).then( (response)=>{
     response.json().then((data)=>{
           if(data.error){
               querytoprint.textContent= data.error

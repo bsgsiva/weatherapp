@@ -21,6 +21,7 @@ hbs.registerPartials(partialPath)
 //         title: 'Hello BSG Welcome to Weather app '
 //     })
 // })
+const port = process.env.PORT || 3000
 app.get('', (req, res) => {
     res.render('index', {
         title: 'Weather',
@@ -92,6 +93,6 @@ app.get('*', (req, res)=>{
     })
 })
 
-app.listen ('3000' , ()=>{
-    console.log('app is listening man')
+app.listen (port , ()=>{
+    console.log('app is listening man' + port)
 })
